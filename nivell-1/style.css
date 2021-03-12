@@ -1,0 +1,104 @@
+/*Resetea los valores del navegador a 0*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(33, 34, 33);
+}
+
+nav{
+    width: 100%;
+    min-height: 30px;
+    background-color: rgb(10, 10, 10);
+}
+
+main{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    min-height: 80px;
+    background-color: black;
+}
+
+/*HEADER*/
+
+.imgHeader{
+    width: 95%;
+    margin: auto;
+    min-height: 160px;
+}
+
+
+/*PRESENTACIÓN*/
+
+section#presentacion{
+    width: 100%;
+    min-height: 480px;
+    background-color: rgb(142, 143, 142);
+    display: flex; 
+    flex-direction: column;
+    align-content: center;
+}
+
+article#hola{
+    width: 70%;
+    min-height: 310px;
+    margin: auto;
+    background-color: rgb(32, 32, 32);
+}
+
+/*CATALOGO*/
+
+section#catalogo{
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px, 0px;
+    background-color: rgb(31, 30, 30);
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article.producto{
+    width: 250px;
+    height: 350px;
+    margin: 30px;
+    background-color: rgb(71, 70, 70);
+}
+
+/*PROYECTOS*/
+
+section#proyectos{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(108, 108, 110);
+    display: flex;  
+    flex-direction: column;
+    align-content: center;
+}
+
+#proyectos h1, article{
+    width: 70%;
+    background-color: rgb(31, 30, 30);
+    margin: auto;
+}
+
+#proyectos article{
+    min-height: 28%;
+}
