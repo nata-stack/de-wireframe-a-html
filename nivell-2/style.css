@@ -1,0 +1,244 @@
+/*Google Fonts>> SPECTRAL 400 400i 600| RUBI 300 300i 400*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,300&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap');
+
+
+/*Resetea los valores del navegador a 0*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+}
+
+nav, main{
+    width: 80%;
+    margin: auto; 
+}
+
+h1, h2, h3{
+    font-family: 'Spectral', serif;
+}
+h1{
+    font-size: 3.5rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.9;
+}
+
+a:hover{
+    color: black ;
+    opacity: 0.6;
+}  
+
+a:active{
+    color: black ;
+    opacity: 0.5;
+}
+
+img{
+    display: block;
+}
+
+
+/*CABECERA*/
+
+.imgHeader{
+    width: 95%;
+    margin: auto;
+}
+
+/*MENÚ PRINCIPAL*/
+
+#nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+hr#linea-nav{
+    width: 80%;
+    margin: 10px auto 40px auto;
+}
+
+#nav-main ul{
+    display: flex;
+    list-style: none; 
+}
+
+#nav-main li{
+    padding: 0px 10px;   
+}
+
+/* Nav left */
+
+#nav-menu-left li{
+    border-right: 1px solid;
+}
+
+/* Nav left */
+
+#nav-menu-right li i{
+    font-size: 25px;
+}
+
+/*PRESENTACIÓN*/
+
+section#presentacion{
+    width: 100%;
+    min-height: 380px;
+    background-image: url(images/pantallas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
+
+.texto{
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+
+/*CATÁLOGO*/
+
+section#catalogo{
+    min-height: 100vh;
+    margin-top: 80px;
+}
+
+#productos{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 60px 0px;
+    margin-bottom: 40px;
+    display: flex;   /*Contenedor flex*/
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+article.producto{
+    max-width: 320px;
+    margin: 20px;
+    display: flex;  /*Contenedor flex*/
+    flex-direction: column;
+    align-content: center;
+}
+
+.producto img{
+   margin: auto;
+   border: 10px solid white;
+   outline-style: solid;
+   outline-width: 2px;
+   outline-color: black;
+}
+
+.btn{
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    color: white;
+    background-color: black;
+    border-radius: 0;
+    border: 2px solid black;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+
+/*PROYECTOS*/
+
+section#proyectos{
+    display: flex;  /*Contenedor flex*/
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    height: 500px;
+}
+
+#proyectos h2{
+    margin-bottom: 40px;
+}
+
+#proyectos article{
+    width: 80%;
+    margin: 0 auto auto auto;
+}
+
+#articulo1 img{
+    margin-right: 20px;
+    float: left;
+}
+
+#articulo1 p{
+    font-size: 1.1rem;
+    line-height: 1.4;
+    text-align: justify;
+    color: rgb(78, 80, 80);
+}
+
+#articulo1 .sabermas{
+    text-align: right;
+}
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+}
+
+#logo img{
+    width: 70px;
+    padding: 10px;
+}
+
+#copyright span{
+    color: white;
+}
+
+#rrss i{
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+}
